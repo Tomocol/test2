@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="rand"></div>
+    <h1>ガーディアンおみくじ</h1>
+    <div id="main_content" tite="まほまほ"></div>
+    <button id="gardian_btn">
+        <img src="img/gardean.jpeg" alt="gardian_btn">
+    </button>
+    <div id="result" title="結果">
+        <h2>ここに結果が出るよ</h2>
+    </div>
+    <script>
+        // var a = 5;
+        // if (a >= 1) {
+        //     alert("OK")
+        // }
+        // if (a == 1) {
+        //     alert("等しいです。")
+        // }
+        // if (a >= 6) {
+        //     alert("なんだろう")
+        // }
+
+        // var a =1;
+        // if(a>=2){
+        //     alert("2以上です")
+        // }else{
+        //    alert("条件に合いませんでした") 
+        // }
+        // var a = "";
+        // if (a == "") {
+        // //     alert("未入力です。");
+        // var value2 = 5;
+        // if (value2 == 6 || value2 == 5) {
+        //     alert("value2");
+        // }else{
+        //     alert("違うよ");
+
+
+        /*function strfunc(){
+            var str = "関数を知らない";
+            alert(str);
+        }
+        strfunc();
+        strfunc();
+        strfunc();*/
+
+        /*function addition(a,b){
+            var total = a + b;
+            return total;
+        };
+        var t = addition(10,20);
+        alert(t);*/
+
+        /*function from(b,c){
+                     var total = b + c;
+                     return total;
+                 };
+         
+                 var f = from(59,89);
+                     alert(f);
+         
+                 function add(a1, a2, en){
+                     if(en=="+"){
+                         var n = a1 +a2;
+                     }
+                     return n;
+                 }
+                 var t = add(10,40,"+");
+                 alert(t);*/
+        /*var num = Math.floor(Math.random() * 5 + 1);
+        alert(num);*/
+
+        /*function rand(n) {
+            var r = Math.floor(Math.random()*n + 1);
+            return r;
+        }
+        var t = rand(10);
+        $("#rand").html(t);*/
+
+        // var my_btn = document.querySelector("#my_btn");
+        // alert(my_btn.title)//指定先のタイトル参照
+        // var h1 = document.querySelector("h1");
+        // h1.style.color ="#FFFF00";
+        // h1.style.fontSize="64px";
+        // h1.innerHTML= "バフバフ";
+        //var main_content = document.activeElement
+        /*var btn = document.querySelector("#btn");
+        btn.onmouseover = function(e){
+            alert("btnをクリック")
+        };*/
+
+        var btn = document.querySelector("#btn");
+        btn.onlclick　 = function (e) {
+
+        var rand = Math.floor(Math.random()* n + 1);
+            console.log(rand); 
+            var rand=("");
+
+            if (rand == 1) {
+                result.innerHTML("大吉");
+            } else if (rand == 2) {
+                result.innerHTML("小吉");
+            } else if (rand == 3) {
+                result.innerHTML("小吉");
+            } else if (rand == 4) {
+                result.innerHTML("小吉");
+            } else {
+                result.innerHTML("凶");
+            };
+        };
+
+        //ランダムを取得
+
+
+
+        //if
+    </script>
+
+</body>
+
+</html>
